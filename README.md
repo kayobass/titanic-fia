@@ -35,6 +35,40 @@ Desenvolver e comparar modelos de aprendizado de máquina capazes de prever se u
 - SGDClassifier
 - RandomForestClassifier
 
+## Principais resultados
+
+| Modelo                     | Acurácia | Precisão | Revocação | F1-score |
+| -------------------------- | -------- | -------- | --------- | -------- |
+| Baseline (DummyClassifier) | 61,66%   | 0,00%    | 0,00%     | 0,00%    |
+| SGDClassifier              | 77,81%   | 74,73%   | 64,82%    | 68,37%   |
+| RandomForestClassifier     | 78,95%   | 72,95%   | 71,46%    | 72,19%   |
+
+O RandomForestClassifier foi escolhido como modelo final por apresentar o melhor equilíbrio entre as métricas. Na avaliação final com o conjunto de teste, ele alcançou:
+
+- **Acurácia:** 81,56%
+- **Precisão:** 80,00%
+- **Revocação:** 69,57%
+- **F1-score:** 74,42%
+
+## Divisão das contribuições
+
+### Matheuz Rozendo — Análise e pré-processamento dos dados
+
+- Identificação e descrição do problema do projeto (prever a sobrevivência no Titanic).
+- Explicação do dataset e das variáveis principais.
+- Análise exploratória dos dados (EDA): distribuição do atributo-alvo, sobrevivência por sexo, classe e porto de embarque, histogramas de idade e tarifa, boxplots, gráficos de dispersão e matriz de correlação.
+- Pré-processamento dos dados: tratamento de valores ausentes (mediana para numéricas, moda para categóricas), transformação de variáveis categóricas com OneHotEncoder, padronização com StandardScaler, seleção de atributos e preparação dos dados para treinamento.
+- Separação dos dados em treino e teste com estratificação.
+
+### Kayo Araujo — Modelagem e avaliação
+
+- Explicação dos modelos de aprendizado de máquina utilizados (Baseline, SGDClassifier e RandomForestClassifier).
+- Treinamento dos modelos com validação cruzada.
+- Comparação dos resultados obtidos entre os modelos.
+- Explicação e interpretação das métricas de avaliação (acurácia, precisão, revocação, F1-score e matriz de confusão).
+- Escolha do modelo final e avaliação no conjunto de teste.
+- Conclusão do projeto e apresentação de possíveis melhorias.
+
 ## Como executar
 
 1. Abra o notebook `Projeto_Titanic.ipynb` no Google Colab
