@@ -46,7 +46,7 @@ Desenvolver e comparar modelos de aprendizado de máquina capazes de prever se u
 
 ## Vídeo
 
-Link do vídeo de apresentação: [INSERIR LINK AQUI]
+Link do vídeo de apresentação: https://youtu.be/NLDx0rAbSfk
 
 ## Declaração de Uso de Ferramentas de Inteligência Artificial
 
