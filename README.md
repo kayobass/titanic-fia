@@ -29,6 +29,17 @@ Desenvolver e comparar modelos de aprendizado de máquina capazes de prever se u
 
 `Pclass`, `Sex`, `Age`, `SibSp`, `Parch`, `Fare`, `Embarked`.
 
+## Tecnologias utilizadas
+
+| Tecnologia | Uso no projeto |
+|---|---|
+| Python | Linguagem de programação |
+| Pandas | Manipulação e análise de dados |
+| NumPy | Operações numéricas |
+| Matplotlib | Criação de gráficos (histogramas, barras, boxplots, dispersão) |
+| Seaborn | Matriz de correlação (heatmap) |
+| Scikit-learn | Modelos de classificação, pré-processamento (Pipeline, ColumnTransformer, SimpleImputer, OneHotEncoder, StandardScaler), métricas de avaliação e validação cruzada |
+
 ## Modelos utilizados
 
 - Baseline
